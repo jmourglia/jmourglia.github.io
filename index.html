@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>José Mourglia — GIS | Datos | IDE Corrientes</title>
+  <meta name="description" content="Portfolio de José Mourglia, desarrollador GIS, científico de datos, IDE Provincia de Corrientes, profesor RStudio UNNE." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#">JM</a>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#docencia">Docencia</a>
+      <a href="#contacto">Contacto</a>
+      <a class="btn" href="mailto:jmourglia@gmail.com">Escríbeme</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="kicker">Hola, soy</p>
+      <h1>José Mourglia</h1>
+      <p class="subtitle">Desarrollador GIS · Científico de Datos · <a href="https://ide.corrientes.gob.ar" target="_blank" rel="noopener">IDE Provincia de Corrientes</a> · Profesor de RStudio en UNNE</p>
+      <div class="actions">
+        <a class="btn primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn" href="https://ide.corrientes.gob.ar" target="_blank" rel="noopener">IDE Corrientes</a>
+        <a class="btn" href="https://github.com/jmourglia" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Trabajo en la <strong><a href="https://ide.corrientes.gob.ar" target="_blank" rel="noopener">Infraestructura de Datos Espaciales (IDE) de la Provincia de Corrientes</a></strong>, donde desarrollo visores, servicios geoespaciales y análisis de datos territoriales.</p>
+      <p>Combino <strong>GIS, estadística aplicada y ciencia de datos</strong> con R y Python para apoyar la toma de decisiones públicas.</p>
+      <ul class="tags">
+        <li>QGIS</li><li>ArcGIS</li><li>PostGIS</li><li>GeoServer</li><li>Leaflet</li><li>R</li><li>RStudio</li><li>Python</li><li>GeoPandas</li><li>SQL</li>
+      </ul>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>IDE Provincia de Corrientes</h3>
+          <p>Desarrollo y mantenimiento de la IDE provincial: catálogo de capas, geoservicios WMS/WFS y visor territorial.</p>
+          <p class="muted">PostGIS · GeoServer · Leaflet</p>
+          <p><a href="https://ide.corrientes.gob.ar" target="_blank" rel="noopener">ide.corrientes.gob.ar</a> · <a href="https://github.com/GisSusti" target="_blank" rel="noopener">GitHub GisSusti</a></p>
+        </article>
+        <article class="card">
+          <h3>Análisis territorial y ambiental</h3>
+          <p>Procesamiento geoespacial y estadístico para ambiente, catastro y planificación: limpieza de datos, indicadores y mapas.</p>
+          <p class="muted">R · Python · QGIS</p>
+          <p><a href="https://github.com/GisSusti" target="_blank" rel="noopener">Ver en GisSusti</a></p>
+        </article>
+        <article class="card">
+          <h3>Estadística aplicada con R</h3>
+          <p>Scripts, clases y material reproducible para análisis exploratorio, visualización y reportes con RMarkdown / Quarto.</p>
+          <p class="muted">RStudio · Tidyverse · Quarto</p>
+          <p><a href="https://github.com/jmourglia" target="_blank" rel="noopener">Ver en jmourglia</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="docencia">
+      <h2>Docencia</h2>
+      <div class="card">
+        <h3>Profesor de RStudio — Diplomatura en Estadística Aplicada, UNNE</h3>
+        <p>Enseño importación y limpieza de datos, visualización con ggplot2, estadística descriptiva e inferencial y reportes reproducibles.</p>
+        <p class="muted">UNNE · R · RStudio · Estadística</p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Escríbeme a <a href="mailto:jmourglia@gmail.com">jmourglia@gmail.com</a></p>
+      <p><a href="https://ide.corrientes.gob.ar" target="_blank" rel="noopener">IDE Corrientes</a> · <a href="https://github.com/GisSusti" target="_blank" rel="noopener">GitHub GisSusti</a> · <a href="https://github.com/jmourglia" target="_blank" rel="noopener">GitHub jmourglia</a></p>
+      <p class="muted">IDE Provincia de Corrientes · UNNE · Corrientes, Argentina</p>
+      <form id="form" onsubmit="return false">
+        <input id="name" placeholder="Tu nombre" required />
+        <input id="email" type="email" placeholder="tu@email.com" required />
+        <textarea id="msg" rows="4" placeholder="Hola José,..." required></textarea>
+        <button class="btn primary" type="submit">Enviar por email</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>© 2026 José Mourglia — GIS · Datos · UNNE</footer>
+  <script src="script.js"></script>
+</body>
+</html>
